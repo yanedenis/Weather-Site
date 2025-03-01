@@ -62,7 +62,6 @@ export default {
 .cityInfo {
     display: grid;
     grid-template-columns: auto 1fr;
-    height: 20vh;
     gap: 12px;
     margin-top: 24px;
     justify-items: center;

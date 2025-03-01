@@ -19,7 +19,8 @@ export default {
       }
       this.error = ''
 
-      axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${this.city}&units=metric&appid=APP_ID`)
+      axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${this.city}&units=metric&appid=9ece9e076cec8a1d100ea36ca0e7b886
+`)
         .then(res => {this.info = res.data})
     }
   }
